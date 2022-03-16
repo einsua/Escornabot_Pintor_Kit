@@ -5,6 +5,8 @@ Piezas 3D para añadir al soporte de pilas de la versión [Escornabot Brivoi-DIY
 ![previsualización](3D/Escornabot_Pintor_Kit_front.png)
 ![previsualización](3D/Escornabot_Pintor_Kit_back.png)
 
+<img src="3D/Kit_front.png" width=50%><img src="3D/Kit_back.png" width=50%>
+
 Elementos necesarios:
 - Escornabot Brivoi-DIY
 - Piezas [3D](3D/) (soporte del servo y soporte de rotulador)
@@ -26,6 +28,8 @@ Es necesario tener instaladas estas dos extensiones en mblock:
 - **Servo de _Catherine Jone_**
 
 El archivo [Test_distancia_rotulador_eje_ruedas.sb2](Código/Test_distancia_rotulador_eje_ruedas.sb2) es un código para calcular **la distancia entre el rotulador y el eje de las ruedas** para lo cual se procede de la siguiente manera, se pulsa ATRÁS - DERECHA o ATRÁS - IZQUIERDA, se mide el diámetro de la circunferencia trazada y la mitad de esa medida se introduce en la variable _dist_eje_punta_ de los códigos de mblock [Escornabot_Pintor_Kit](Código/Escornabot_Pintor_Kit.sb2) o [Escornabot_Pintor_Kit_programable](Código/Escornabot_Pintor_Kit_programable.sb2).
+
+En esta animación se muestra el proceso [Test_distancia.gif](Código/Test_distancia.gif)
 
 ### [**Conexiones**](Conexiones/)
 
