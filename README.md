@@ -14,7 +14,7 @@ Elementos necesarios:
 - 1 Servo SG90
 - 2 Tornillos «rosca chapa» din-7981 2.9×9.5 (ISO 7049) (para fijar la pieza al Escornabot)
 - 1 Tornillo «rosca métrica» din-7985 M3x10 (ISO 7045) (para fijar la posición del rotulador)
-- 1 Condensador de 470 uF (_opcional_, se utiliza para que funcione mejor el servo)
+- 1 Condensador de 470 &mu;F (_opcional_, se utiliza para que funcione mejor el servo)
 
 
 ### [**3D**](3D/)
@@ -23,11 +23,10 @@ Piezas modeladas en [FreeCAD](www.freecadweb.org).
 
 ### [**Código**](Código/)
 
-Es necesario tener instaladas estas dos extensiones en mblock:
+Es necesario tener instalada en mblock la extensión:
 - [**EscornabotDIY de _ROBOteach_**](https://github.com/roboteach-es/mBlock3-extensions/tree/master/RT_EscornabotDIY)
-- **Servo de _Catherine Jone_**
 
-El archivo [Test_distancia_rotulador_eje_ruedas.sb2](Código/Test_distancia_rotulador_eje_ruedas.sb2) es un código para calcular **la distancia entre el rotulador y el eje de las ruedas** para lo cual se procede de la siguiente manera, se pulsa ATRÁS - DERECHA o ATRÁS - IZQUIERDA, se mide el diámetro de la circunferencia trazada y la mitad de esa medida se introduce en la variable _dist_eje_punta_ de los códigos de mblock [Escornabot_Pintor_Kit](Código/Escornabot_Pintor_Kit.sb2) o [Escornabot_Pintor_Kit_programable](Código/Escornabot_Pintor_Kit_programable.sb2).
+El archivo [Test_distancia_rotulador_eje_ruedas.sb2](Código/Test_distancia_rotulador_eje_ruedas.sb2) es un código para calcular **la distancia entre el rotulador y el eje de las ruedas** para lo cual se procede de la siguiente manera, se pulsa ATRÁS - GIRO DERECHA o ATRÁS - GIRO IZQUIERDA, se mide el diámetro de la circunferencia trazada y la mitad de esa medida se introduce en la variable _dist_eje_punta_ de los códigos de mblock [Escornabot_Pintor_Kit](Código/Escornabot_Pintor_Kit.sb2) o [Escornabot_Pintor_Kit_programable](Código/Escornabot_Pintor_Kit_programable.sb2).
 
 En esta animación se muestra el proceso [Test_distancia.gif](Código/Test_distancia.gif)
 
